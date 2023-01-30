@@ -3,9 +3,6 @@ name: Add Icon
 on:
   repository_dispatch:
     types: addIcon
-  push:
-    branches:
-      - main
 
 jobs:
   addIcon:
